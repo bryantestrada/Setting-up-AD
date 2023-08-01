@@ -184,7 +184,7 @@ Open the drop-down list; under your root domain name and add two Organizational 
 <img width="640" alt="Refresh" src="https://github.com/bryantestrada/Setting-up-AD/assets/133170900/cb108172-dfc5-4e38-afbf-dac0be30f5a4">
 <br />
 <p>
-Create a new user inside the "_ADMINS" folder, and give it a name (Jane Doe), and a username (Jane.admin). Click next and give it a password. You can use these credentials to do any administrative tasks using any computer connected to your domain controller; First, you must add the new user to the "Domain Admins" Security Group.
+Create a new user inside the "_ADMINS" folder, and give it a name (Jane Doe) and a username (Jane.admin). Click next and give it a password. You can use these credentials to do any administrative tasks using any computer connected to your domain controller; First, you must add the new user to the "Domain Admins" Security Group.
 </p>
 <img width="640" alt="user" src="https://github.com/bryantestrada/Setting-up-AD/assets/133170900/817d5a59-96fa-4d7d-9ddb-1ae86cd81fb6">
 <img width="640" alt="User1" src="https://github.com/bryantestrada/Setting-up-AD/assets/133170900/3f3fc920-b003-4fae-a6f8-1b925251814c">
@@ -231,14 +231,14 @@ Click Rename this PC (advanced), click "Change.." and select "Domain" to input y
 <img width="512" alt="Changes 3" src="https://github.com/bryantestrada/Setting-up-AD/assets/133170900/51440106-b9db-4d18-a14e-272ee14d580b">
 <br />
 <p>
-A popup will appear, welcoming you to the "Domain", then the Client VM will restart.
+A popup will appear, welcoming you to the "Domain," and then the Client VM will restart.
 </p>
 <img width="400" alt="popup" src="https://github.com/bryantestrada/Setting-up-AD/assets/133170900/c0064da1-b30d-4a7a-a7c8-0a5d041a8787">
 <br />
 <p>
-Login to the Domain Controller through Remote Desktop using the Admin credentials and verify the client VM shows up in Active Directory Users and Computers; inside the computer's container on the root of the "domain".
+Login to the Domain Controller through Remote Desktop using the Admin credentials and verify the client VM shows up in Active Directory Users and Computers; inside the computer's container on the root of the "domain."
 </p>
 <img width="640" alt="comp" src="https://github.com/bryantestrada/Setting-up-AD/assets/133170900/c423b31f-f348-47e0-a0f3-efbbd355c59e">
 <p>
-Now that the Client VM is joined to the "Domain", you can access and restrict permissions for the client using the admin accounts created in the DC.
+And that's it; You should now be able to create a Domain controller and Client VM using Microsoft Azure, install and configure Active Directory, and join the Client VM to the domain to access it using an admin account. Finally, disconnect from the remote desktop and delete your "Resource Group."
 </p>
